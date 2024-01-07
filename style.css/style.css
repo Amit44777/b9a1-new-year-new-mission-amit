@@ -1,0 +1,90 @@
+*{
+font-family: 'Merriweather', serif;
+font-family: 'Inter', sans-serif;
+}
+
+/* Header - Banner Section Start */
+
+header{
+    background: url(../resources/Banner\ Image.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 1740px;
+    height: 790px;
+    margin: 0px 72px;
+    border-radius: 10px;
+}
+
+.happy{
+font-size: 32px;
+}
+
+.happy-new{
+    font-size: 72px;
+}
+
+/* Header - Banner Section End */
+
+
+/* This is  All Categories Start */
+
+.our-holiday{
+    text-align: center;
+    width: 1740px;
+    height: 790px;
+    margin: 0px, auto, 10px;
+}
+
+.span{
+    font-size: 88px;
+}
+
+.span-1{
+    font-size: 24px;
+}
+
+.span-2{
+    font-size: 48px;
+}
+
+/* This is All Categories End */
+
+
+/* This is midnight party Start */
+
+.midnight-party{
+    background-image: url(/resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    display: block;
+    justify-content: space-between;
+    width: 1740px;
+    height: 600px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.welcome-to{
+    padding: 126px 552px 298px 126px;
+}
+
+.welcome-now{
+    font-size: 64px;
+    color: #fff;
+}
+
+.dolar{
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn{
+    font-size: 20px;
+    
+}
+
+/* This is midnight party End */
