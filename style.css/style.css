@@ -65,7 +65,7 @@ font-size: 32px;
     width: 1740px;
     height: 600px;
     display: flex;
-    margin: 0 auto;
+    margin: 150px auto 0;
 }
 
 .welcome-to{
@@ -88,3 +88,14 @@ font-size: 32px;
 }
 
 /* This is midnight party End */
+
+
+/* Section - New park Hotel Start */
+
+.ner-park{
+    background-color: rgb(255, 0, 0, 0.10);
+text-align: center;
+
+}
+
+/* Section - New park Hotel End */
