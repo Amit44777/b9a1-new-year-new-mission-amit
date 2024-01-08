@@ -1,59 +1,83 @@
 *{
-font-family: 'Merriweather', serif;
-font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 /* Header - Banner Section Start */
 
 header{
     background: url(../resources/Banner\ Image.png);
-    height: 100vh;
+    height: 55vh;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    background-position: center;
     display: flex;
     flex-direction: column;
     color: #fff;
-    width: 1740px;
-    height: 790px;
-    margin: 0px 72px;
+    max-width: 1320px;
+    margin: 0px auto;
     border-radius: 10px;
 }
 
 .happy{
-font-size: 32px;
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Merriweather';
 }
 
 .happy-new{
+    font-family: 'Merriweather';
+    color: #fff;
     font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+
 }
 
 /* Header - Banner Section End */
-
 
 /* This is  All Categories Start */
 
 .our-holiday{
     text-align: center;
-    width: 1740px;
-    height: 790px;
-    margin: 0px, auto, 10px;
+    max-width: 1320px;
+    background-position: center;
+    margin: 20px auto 50px;
 }
 
-.span{
+.off{
+    color: #f00;
+    font-family: 'Inter';
     font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .span-1{
+    color: #f00;
+    font-family: 'Inter';
     font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .span-2{
+    color: #070211;
+    font-family: 'Inter';
     font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 /* This is All Categories End */
-
 
 /* This is midnight party Start */
 
@@ -62,40 +86,306 @@ font-size: 32px;
     background-repeat: no-repeat;
     display: block;
     justify-content: space-between;
-    width: 1740px;
-    height: 600px;
+    max-width: 1320px;
     display: flex;
     margin: 150px auto 0;
 }
 
 .welcome-to{
-    padding: 126px 552px 298px 126px;
+    padding: 118px 130px 125px 125px;
 }
 
 .welcome-now{
+    font-family: 'Merriweather';
     font-size: 64px;
     color: #fff;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
 }
 
 .dolar{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter';
     font-size: 18px;
-    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .btn{
+    font-family: 'Inter';
     font-size: 20px;
-    
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;  
 }
 
 /* This is midnight party End */
 
-
 /* Section - New park Hotel Start */
 
-.ner-park{
+.new-park{
     background-color: rgb(255, 0, 0, 0.10);
-text-align: center;
+    text-align: center;
+    max-width: 1320px;
+    margin: 150px auto 0px;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    border-radius: 15px;
+    padding: 50px 0;
+}
 
+.button{
+    font-family: 'Inter';
+    font-size: 20px;
+    margin: 35px;
+    padding: 22px 50px;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    flex-direction: column;
 }
 
 /* Section - New park Hotel End */
+
+/* Section - Coming Soon Start */
+
+.coming-Soon{
+    background-color: #fff;
+    max-width: 1320px;
+    margin: 150px auto 0;
+    display: flex;
+    align-items: center;
+    gap: 10;
+    padding: 50px 0;
+    justify-content: space-between;
+}
+
+.offer h3{
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.offer h2{
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.offer p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.offer .right h2{
+    color: #f00;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Section - Coming Soon End */
+
+
+
+/* section - Holidays Sale Start */
+
+.functional-one{
+    max-width: 1320px;
+    margin: 150px auto 0;
+    padding: 150px 0;
+}
+
+.what-is{
+   text-align: center;
+   padding: 0 0 20px;
+}
+
+.what-is h2{
+    font-size: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.what-is h1{
+    font-size: 72px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.what-is p{
+    color: rgb(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.group{
+    display: flex;
+}
+
+.bottom-img{
+    background-position: calc('bottom-img');
+}
+
+/* section - Holidays Sale End */
+
+
+
+
+/* section - Awesome Portfolio Start */
+
+.section-get{
+    max-width: 1320px;
+    margin: 150px auto 0;
+}
+
+.color{
+    color: red;
+    font-size: 24px;
+    font-family: 'Inter';
+}
+
+.color-2{
+    font-size: 48px;
+    font-family: 'Merriweather';
+}
+
+.sit{
+    font-size: 20px;
+}
+
+.is-image{
+    display: flex; 
+    padding: 10px 0;
+    gap: 20px;
+}
+
+/* section - Awesome Portfolio End */
+
+
+
+/* section - Subscribe Newsletter Start  */
+
+.secton-user{
+    background-color: rgba(255, 0, 0, 0.05);
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 150px auto 0;
+    padding: 150px 0px;
+    border-radius: 10px;
+}
+
+.subscrie{
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    font-family: 'Merriweather';
+    margin: 22px;
+}
+
+.consectetur{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 32px;
+}
+
+.user-name{
+    padding: 15px 20px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    width: 525px;
+    height: 50px;
+    flex-shrink: 0;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.button-2{
+    padding: 15px 20px;
+    border-radius: 0px 50px 50px 0;
+    border: none;
+    background-color: red;
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 200px;
+    height: 75px;
+    flex-shrink: 0;
+    margin: 48px 0;
+}
+
+/* section - Subscribe Newsletter End */
+
+
+/* section - This is Footer Start */
+
+.footer-p{
+    background-color: black;
+}
+
+.footer-div{
+    max-width: 1320px;
+    margin: 150px auto 0;
+}
+
+.foot{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.foot-image-4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+/* section - This is Footer End */
