@@ -7,31 +7,40 @@
 
 header{
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../resources/BannerImage.png);
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
-    width: 1320px;
-    margin: 50px auto;
-    border-radius: 16px;
-}
-
-.header-text{
-    padding: 120px 0;
-}
-
-header h3, header h1{
-    font-family: 'Merriweather', serif;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
     color: #fff;
+    max-width: 1320px;
+    margin: 0px auto;
+    border-radius: 10px;
+    filter: brightness('50%');
 }
 
-header h3{
+.happy{
+    color: #fff;
     font-size: 32px;
+    font-style: normal;
     font-weight: 400;
+    line-height: normal;
+    font-family: 'Merriweather';
+    padding: 150px 0 0;
 }
 
-header h1{
+.happy-new{
+    font-family: 'Merriweather';
+    color: #fff;
     font-size: 72px;
+    font-style: normal;
     font-weight: 900;
     line-height: 95px;
+    padding: 0 150px 0;
 }
+
 /* Header - Banner Section End */
 
 /* This is  All Categories Start */
