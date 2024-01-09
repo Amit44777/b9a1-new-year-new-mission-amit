@@ -28,6 +28,7 @@ header{
     font-weight: 400;
     line-height: normal;
     font-family: 'Merriweather';
+    padding: 150px 0 0;
 }
 
 .happy-new{
@@ -37,7 +38,7 @@ header{
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
-
+    padding: 0 150px 0;
 }
 
 /* Header - Banner Section End */
@@ -66,7 +67,7 @@ header{
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 0;
 }
 
 .span-2{
@@ -88,13 +89,16 @@ header{
     display: block;
     justify-content: space-between;
     max-width: 1320px;
+    height: 600px;
     display: flex;
     margin: 150px auto 0;
-    color: #070211;
+    align-items: center;
 }
 
 .welcome-to{
-    padding: 118px 130px 94px 125px;
+    padding: 104px 130px 95px 125px;
+    width: 600px;
+    height: 500px;
 }
 
 .welcome-now{
@@ -123,6 +127,14 @@ header{
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;  
+    color: #fff;
+}
+
+.group-70{
+    margin: 0 auto;
+    padding: 0px 52px 0px 100px;
+    width: 319px;
+    height: 415px;
 }
 
 /* This is midnight party End */
@@ -260,12 +272,25 @@ header{
     line-height: 32px;
 }
 
-.group{
-    display: flex;
+.image-65{
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
 }
 
-.bottom-img{
-    background-position: calc('bottom-img');
+.image-1{
+    position: absolute;
+}
+
+.image-2{
+    position: absolute;
+    bottom: 50px;
+    right: 280px;
+}
+
+.image-3{
+    padding-left: 890px;
+    display: block;
 }
 
 /* section - Holidays Sale End */
@@ -278,6 +303,7 @@ header{
 .section-get{
     max-width: 1320px;
     margin: 150px auto 0;
+    padding: 150px 0;
 }
 
 .color{
@@ -302,10 +328,10 @@ header{
     transition: 1s;
 }
 
-/* .rectangle-2:hover{
+.rectangle-2:hover{
     transform: scale(1.1);
     z-index: 2;
-} */
+}
 
 /* section - Awesome Portfolio End */
 
